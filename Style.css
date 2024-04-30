@@ -125,7 +125,7 @@ main hr{
     height: 90px;
     width: 1px;
     background-color: white;
-    margin: 0 90px;
+    margin: 0 6vw;
 }
 
 .image-top{
@@ -185,3 +185,74 @@ footer{
     color: gray;
     padding: 12px 0;
 }
+
+@media screen and (max-width: 1100px) {
+    body{
+        background-color: black;
+        min-width: fit-content;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+
+    .secondsection .vertical{
+        height: unset;
+
+    }
+
+    .vertical-title, .vertical-desc{
+        left: 45px;
+
+    }
+
+    .secondsection .box{
+        width: 60vw;
+    }
+
+    .secondsection{
+        height: 100vh;
+    }
+
+    .firstsection{
+        flex-direction: column-reverse;
+    }
+
+    .leftsection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightsection{
+        width: 450px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightsection img{
+        width: 45vw;
+        margin-bottom: 50px ;
+    }
+
+    .image-top{
+        top: 82px;
+    }
+
+    .image-top1{
+        top: 82px;
+    }
+
+    .secondsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
