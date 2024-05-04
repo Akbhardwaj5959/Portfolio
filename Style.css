@@ -215,7 +215,7 @@ footer{
     }
 
     .secondsection{
-        height: 150vh;
+        height: 170vh;
     }
 
     .firstsection{
@@ -254,5 +254,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+
+    
 }
 
